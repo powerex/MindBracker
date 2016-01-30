@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class HelpPanel extends JPanel {
 
-    private Image img;
+    private Image img; // background image
 
     HelpPanel() throws IOException {
         BufferedImage bi = ImageIO.read(new File("src/main/resources/help_.png"));
